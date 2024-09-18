@@ -13,7 +13,8 @@ class Solution {
                 else{ 
                     List<Integer> previousRow =pascal.get(i-1);
                     row.add(previousRow.get(j)+previousRow.get(j-1));
-                }            }
+                }    
+                }
                 pascal.add(row);
 
         }
